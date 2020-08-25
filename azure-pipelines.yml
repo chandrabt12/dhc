@@ -26,5 +26,5 @@ steps:
   displayName: 'Install dependencies'
 
 
-- powershell: robot --pythonpath . -x outputxunit.xml   dhc/UI_Automation/WebApp/TestCases/LoginPage/TestCases/LoginPage.robot
+- powershell: robot --pythonpath . -x outputxunit.xml   /UI_Automation/WebApp/TestCases/LoginPage/TestCases/LoginPage.robot
   displayName: 'Test is running'
