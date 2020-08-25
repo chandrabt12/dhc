@@ -30,4 +30,5 @@ steps:
     pytest
   displayName: 'pytest'
 
-- powershell: robot --pythonpath . -x outputxunit.xml /UI_Automation/WebApp/TestCases/LoginPage/TestCases/ 
+- powershell: robot --pythonpath . -x outputxunit.xml /UI_Automation/WebApp/TestCases/LoginPage/TestCases/LoginPage.robot
+  displayName: 'Test is running'
