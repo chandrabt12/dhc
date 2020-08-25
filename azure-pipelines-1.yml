@@ -27,5 +27,5 @@ steps:
 
 
 - script: |
-    robot --pythonpath . -x outputxunit.xml /SampleProject/TestCases/LoginPage.robot
+    robot --variable BROWSER:Firefox --variable BROWSER:Chrome . -x outputxunit.xml /SampleProject/TestCases/LoginPage.robot
   displayName: 'New Test'
