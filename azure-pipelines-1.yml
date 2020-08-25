@@ -28,3 +28,9 @@ steps:
 
 - powershell: robot .
   displayName: 'New Test'
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/TEST-*.xml'
+    testRunTitle: 'UI Automation CI'
