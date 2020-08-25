@@ -25,5 +25,5 @@ steps:
     pip install robotframework  robotframework-seleniumLibrary  npm install chromedriver  && npm install geckodriver
   displayName: 'Install dependencies'
 
-- powershell: robot --pythonpath . -x outputxunit.xml chandrabt12/dhc/SampleProject/TestCases/LoginPage.robot
+- powershell: robot --pythonpath . -x outputxunit.xml /SampleProject/TestCases/LoginPage.robot
   displayName: 'New Test'
