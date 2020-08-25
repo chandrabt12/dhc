@@ -10,8 +10,8 @@ pool:
   vmImage: 'vs2017-win2016'
 strategy:
   matrix:
-    Python38:
-      python.version: '3.8'
+    Python27:
+      python.version: '2.7'
 
 steps:
 - task: UsePythonVersion@0
