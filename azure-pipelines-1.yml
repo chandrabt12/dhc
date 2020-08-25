@@ -26,6 +26,5 @@ steps:
   displayName: 'Install dependencies'
 
 
-- script: |
-    robot --variable BROWSER:Firefox --variable BROWSER:Chrome --outputdir results  /SampleProject/TestCases/LoginPage.robot
+- powershell: robot .
   displayName: 'New Test'
