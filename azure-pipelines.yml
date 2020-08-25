@@ -21,7 +21,7 @@ steps:
 
 - script: |
     python -m pip install --upgrade pip
-    pip install robotframework robotframework-seleniumLibrary npm install chromedriver && npm install geckodriver
+    pip install robotframework  robotframework-seleniumLibrary  npm install chromedriver && npm install geckodriver
 
   displayName: 'Install dependencies'
 
