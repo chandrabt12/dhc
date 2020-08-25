@@ -1,0 +1,20 @@
+*** Settings ***
+Library  SeleniumLibrary
+
+*** Variables ***
+@{BROWSERS}             firefox  chrome
+${URL}                  https://dev-swcoe-dhc-automation-web-app.azurewebsites.net/
+
+
+*** Keywords ***
+Begin Web Test
+    FOR  ${Firefox Browser}  IN   @{BROWSERS}
+       open browser               ${URL}  ${Firefox Browser}
+    END
+    set selenium timeout      30s
+    wait until page contains  Commercial Cloud Dashboard
+    maximize browser window
+    switch browser  2
+
+End Web Test
+   close all browsers

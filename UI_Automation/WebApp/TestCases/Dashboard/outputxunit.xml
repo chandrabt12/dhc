@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestCases" tests="4" errors="0" failures="0" skipped="0" time="683.686">
+<testcase classname="TestCases.DHCDashboard" name="TC_Dashboard_Sections" time="141.152">
+</testcase>
+<testcase classname="TestCases.DHCSections" name="TC_Dashboard_Sections" time="165.390">
+</testcase>
+<testcase classname="TestCases.ExecutionDetails" name="TC_Execution details page" time="129.325">
+</testcase>
+<testcase classname="TestCases.SRCDashboard" name="TC_Dashboard_Sections" time="221.307">
+</testcase>
+</testsuite>
