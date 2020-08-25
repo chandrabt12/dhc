@@ -25,10 +25,6 @@ steps:
 
   displayName: 'Install dependencies'
 
-- script: |
-    pip install pytest pytest-azurepipelines
-    pytest
-  displayName: 'pytest'
 
-- powershell: robot --pythonpath . -x outputxunit.xml /UI_Automation/WebApp/TestCases/LoginPage/TestCases/LoginPage.robot
+- powershell: robot --pythonpath . -x outputxunit.xml TestCases.robot
   displayName: 'Test is running'
