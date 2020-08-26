@@ -13,6 +13,6 @@ Test Teardown  End Web Test
 *** Test Cases ***
 Test Cases for items on page
     [Documentation]  Validation Of Items Per Page
-    [Tags]  Smoke
+    #[Tags]  Smoke
     Login With Valid Credentials
     Validation Items Per Page And Paged To The Next Section
