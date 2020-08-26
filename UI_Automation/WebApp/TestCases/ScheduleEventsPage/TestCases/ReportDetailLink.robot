@@ -10,6 +10,6 @@ Test Teardown   End Web Test
 *** Test Cases ***
 Test title
     [Documentation]  Validation Of Report Detail Link In Scheduled Event Page
-    [Tags]    Smoke
+    #[Tags]    Smoke
     Login With Valid Credentials
     Validaion Of Report Detail Link In Scheduled Event Page
