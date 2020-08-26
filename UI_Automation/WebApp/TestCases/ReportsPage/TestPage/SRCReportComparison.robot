@@ -10,7 +10,7 @@ Test Teardown   End Web Test
 *** Test Cases ***
 Test Cases For
     [Documentation]  Validation For SRC Report Comparison
-    [Tags]    Smoke
+    #[Tags]    Smoke
     Login With Valid Credentials
     SRC Comparison
 
