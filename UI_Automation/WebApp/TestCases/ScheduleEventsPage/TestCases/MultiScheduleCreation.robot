@@ -8,7 +8,7 @@ Test Teardown   End Web Test
 *** Test Cases ***
 Validation of multi schedule creation, Creation Event with status "Failed" on the same day
     [Documentation]  Multi schedule creation validation
-    [Tags]    Smoke
+    #[Tags]    Smoke
     Login With Valid Credentials
     Creation Event with status "Failed"
 Validation of multi schedule creation, Creation Event with status "Succeeded" on the same day
