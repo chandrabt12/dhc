@@ -15,7 +15,7 @@ Suite Teardown    End Web Test
 *** Test Cases ***
 TC_001_Login with Valid credentials
     [Documentation]  Verify Token Validation
-    [Tags]  Smoke
+    #[Tags]  Smoke
     Login With Valid Credentials
     Confirm Valid Credentials
     Check If Active User Automatically Login Into An App
