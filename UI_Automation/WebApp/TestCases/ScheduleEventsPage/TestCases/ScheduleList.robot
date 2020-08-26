@@ -12,7 +12,7 @@ Test Teardown  End Web Test
 
 *** Test Cases ***
 Test Cases For Schedule List
-    [Tags]  Smoke
+    # [Tags]  Smoke
     Login With Valid Credentials
     Create Schedule list
     View Schedule list
