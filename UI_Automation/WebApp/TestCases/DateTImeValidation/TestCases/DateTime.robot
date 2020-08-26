@@ -12,7 +12,7 @@ Test Teardown   End Web Test
 *** Test Cases ***
 TC_Validation Of Date Time Changes
     [Documentation]  Validation Of Date Time Changes
-    [Tags]    Smoke
+    # [Tags]    Smoke
     Login With Valid Credentials
     Validation For Date Time Changes
 
