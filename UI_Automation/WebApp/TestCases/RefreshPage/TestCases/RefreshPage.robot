@@ -10,7 +10,7 @@ Test Teardown  End Web Test
 *** Test Cases ***
 Test Cases For Refresh Page Validation
     [Documentation]  Refresh Validation Of Each Page
-    [Tags]    Smoke
+    #[Tags]    Smoke
     Login With Valid Credentials
     Refresh Pages
 
