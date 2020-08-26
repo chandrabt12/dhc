@@ -14,7 +14,7 @@ Suite Teardown      End Web Test
 *** Test Cases ***
 TC_salesforce cases page
     [Documentation]  Validation for salesforce cases page
-    [Tags]  Smoke
+    # [Tags]  Smoke
     Login With Valid Credentials
     ValidationOfSalesforceCasesPage
 
