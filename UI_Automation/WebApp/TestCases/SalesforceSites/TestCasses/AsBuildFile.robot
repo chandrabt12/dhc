@@ -11,6 +11,6 @@ Test Teardown  End Web Test
 *** Test Cases ***
 TC_Validation of Salesforce Site Page
     [Documentation]  Validation of AsBuild Functionality
-    [Tags]  Smoke
+    #[Tags]  Smoke
     Login With Valid Credentials
     As Build Validation
