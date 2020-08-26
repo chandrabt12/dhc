@@ -10,6 +10,6 @@ Test Teardown  End Web Test
 *** Test Cases ***
 Validate that each status can be selected in the report page and updated status displayed
     [Documentation]  Validate that each status can be selected in the report page and updated status displayed
-    [Tags]    Smoke
+    #[Tags]    Smoke
     Login With Valid Credentials
     Updating Status In Report Page
