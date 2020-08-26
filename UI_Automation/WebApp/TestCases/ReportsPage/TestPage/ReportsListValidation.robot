@@ -11,7 +11,7 @@ Test Teardown  End Web Test
 *** Test Cases ***
 Test Cases For Reports List
     [Documentation]   Validation Of Reports Page
-    [Tags]  Smoke
+    #[Tags]  Smoke
     Login With Valid Credentials
     Validation Of Reports Page
 
