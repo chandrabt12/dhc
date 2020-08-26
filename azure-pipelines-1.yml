@@ -26,5 +26,5 @@ steps:
   displayName: 'Install dependencies'
 
 
-- powershell: robot .
+- powershell: robot  -s  TestCases.LoginPage .
   displayName: 'New Test'
