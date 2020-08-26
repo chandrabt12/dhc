@@ -13,7 +13,7 @@ Test Teardown   End Web Test
 *** Test Cases ***
 TC_Validation Of Site Details Page
     [Documentation]  Validation Of Site Details Page
-    [Tags]    Smoke
+    # [Tags]    Smoke
     Login With Valid Credentials
     List Page Validation
     Validation Of Site Details Page
