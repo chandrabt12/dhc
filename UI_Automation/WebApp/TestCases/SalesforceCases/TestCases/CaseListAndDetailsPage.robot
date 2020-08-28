@@ -12,7 +12,7 @@ Suite Teardown      End Web Test
 *** Test Cases ***
 TC_Details And Case Liss Page
     [Documentation]  Validation for Case List And Details Page
-    [Tags]    Smoke
+    #[Tags]    Smoke
     Login With Valid Credentials
     ValidationOfCaseListPage
     ValidationOfCasesDetailsPage

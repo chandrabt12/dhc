@@ -13,7 +13,7 @@ Suite Teardown      End Web Test
 *** Test Cases ***
 TC_Dashboard_Sections
         [Documentation]  Validate DHC Sections
-        [Tags]  Smoke
+        # [Tags]  Smoke
         Login With Valid Credentials
         Create Schedule List
         Validation of Upcoming DHCs section

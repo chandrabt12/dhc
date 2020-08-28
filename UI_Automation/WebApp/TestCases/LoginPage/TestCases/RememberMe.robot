@@ -18,7 +18,7 @@ ${VALID PASSWORD}            1qaz@WSX
 
 *** Test Cases ***
 Test title
-    [Tags]    Smoke
+    #[Tags]    Smoke
     Begin Web Test
     Login
     Verify User Logged In

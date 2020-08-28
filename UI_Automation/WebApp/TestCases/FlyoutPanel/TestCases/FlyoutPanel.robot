@@ -13,7 +13,7 @@ Test Teardown  End Web Test
 *** Test Cases ***
 Test title
     [Documentation]  Validation Of FlyOut Panel Dissmissal
-    [Tags]    Smoke
+    #[Tags]    Smoke
     Login With Valid Credentials
     FlyOut Panel Dismissal
 

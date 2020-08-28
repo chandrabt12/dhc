@@ -13,7 +13,7 @@ Suite Teardown      End Web Test
 *** Test Cases ***
 TC_Dashboard_Sections
         [Documentation]  Validate SRC Sections
-        [Tags]  Smoke
+        #[Tags]  Smoke
         Login With Valid Credentials
         Validation of Cases needing intro call
         Validation of Cases needing Modem Activation

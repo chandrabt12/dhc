@@ -11,7 +11,7 @@ Suite Teardown      End Web Test
 *** Test Cases ***
 TC_Execution details page
          [Documentation]  Validation for execution details page
-         [Tags]  Smoke
+         #[Tags]  Smoke
          Login With Valid Credentials
          Details Page
          

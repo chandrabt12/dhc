@@ -9,7 +9,7 @@ Test Setup     Begin Web Test
 Test Teardown  End Web Test
 
 *** Test Cases ***
- Validation For Schedule Creation Restriction
+Validation For Schedule Creation Restriction
     [Documentation]  Validation For Schedule Creation Restriction
     #[Tags]    Smoke
     Login With Valid Credentials

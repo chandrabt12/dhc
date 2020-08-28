@@ -14,7 +14,7 @@ Suite Teardown    End Web Test
 *** Test Cases ***
 TC_001_Login with Valid credentials
     [Documentation]  Verify login page creadentials
-    [Tags]  Smoke
+    #[Tags]  Smoke
     Login With Valid Credentials
     Confirm Valid Credentials
     Logout
