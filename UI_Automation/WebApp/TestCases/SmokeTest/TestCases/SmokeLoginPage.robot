@@ -13,7 +13,7 @@ Suite Teardown    End Web Test
 *** Test Cases ***
 SmokeTest: Login with Valid credentials
     [Documentation]  Verify login page creadentials
-    [Tags]  Smoke
+   # [Tags]  Smoke
     Login With Valid Credentials
     Confirm Valid Credentials
     Logout
