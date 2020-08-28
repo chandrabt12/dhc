@@ -1,4 +1,4 @@
-*** Settings ***
+*** Settings ****
 Library  SeleniumLibrary
 
 Resource  ../../../TestCases/SmokeTest/Resources/Common.robot
