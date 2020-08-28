@@ -4,14 +4,17 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/python
 
 trigger:
-- master
+ branches:
+    include:
+      - master
+      - releases/*
 
 pool:
   vmImage: 'vs2017-win2016'
 strategy:
   matrix:
-    Python27:
-      python.version: '2.7'
+    Python37:
+      python.version: '3.7'
 
 steps:
 - task: UsePythonVersion@0
@@ -21,10 +24,16 @@ steps:
 
 - script: |
     python -m pip install --upgrade pip
-    pip install robotframework  robotframework-seleniumLibrary  npm install chromedriver && npm install geckodriver
-
+    pip install -r requirements.txt
+    pip install robotframework  robotframework-seleniumLibrary  npm install chromedriver  && npm install geckodriver
   displayName: 'Install dependencies'
 
+- powershell: robot -i Smoke .
+  displayName: 'UI Automation Testcases'
+  
+- task: PublishTestResults@2
+  condition: succeededOrFailed()
+  inputs:
+    testResultsFiles: '**/test-*.xml'
+    testRunTitle: 'Publish test results for Python $(python.version)'
 
-- powershell: robot --pythonpath . -x outputxunit.xml  ../LoginPage.robot
-  displayName: 'Test is running'
