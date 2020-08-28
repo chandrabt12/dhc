@@ -28,7 +28,7 @@ steps:
     pip install robotframework  robotframework-seleniumLibrary  npm install chromedriver  && npm install geckodriver
   displayName: 'Install dependencies'
 
-- powershell: robot -i Smoke "Testcases SmokeTestcases.robot"
+- powershell: robot -i Smoke .
   displayName: 'UI Automation Testcases'
   
 - task: PublishTestResults@2
